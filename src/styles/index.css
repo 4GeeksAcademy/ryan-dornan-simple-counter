@@ -10,3 +10,36 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.counterComponent {
+    background: black;
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    color: white;
+    border-radius: 20px;
+}
+
+.placeHolder {
+    background: rgb(32, 31, 31);
+    width: 75px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border-color: white;
+    border-width: 20px;
+    padding-top: 15px;
+    margin: 10px;
+}

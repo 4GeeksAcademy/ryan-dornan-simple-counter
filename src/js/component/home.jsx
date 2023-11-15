@@ -2,12 +2,20 @@ import React from "react";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
+import SimpleCounter from "./SimpleCounter";
 
 //create your first component
 const Home = () => {
 	return (
-		<div className="text-center">
-			<h1 className="text-center mt-5">Hello Rigo!</h1>
+		<div>
+			<SimpleCounter />
+		</div>
+	);
+};
+
+export default Home;
+
+/*		<h1 className="text-center mt-5">Hello Rigo!</h1>
 			<p>
 				<img src={rigoImage} />
 			</p>
@@ -18,9 +26,7 @@ const Home = () => {
 				Made by{" "}
 				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
 				love!
-			</p>
-		</div>
-	);
-};
+			</p> */
 
-export default Home;
+
+			
